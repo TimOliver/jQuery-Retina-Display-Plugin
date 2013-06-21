@@ -11,10 +11,10 @@ $(element).retina();
 
 ###Example:
 
-<script src="js/jquery.retina.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.retina.js" type="text/javascript" charset="utf-8"></script>
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('img.retina').retina();
-	});
-</script>
+    <script type="text/javascript">
+	    $(document).ready(function() {
+		    $('img.retina').retina();
+	    });
+    </script>
