@@ -1,15 +1,15 @@
-Author: Troy Mcilvena
-Website: http://www.troymcilvena.com
-Twitter: @mcilvena
+# jQuery Retina Display Plugin
+#### A lightweight plugin to allow dynamic downloading of assets for Retina display devices
 
-See this pull request for the difference between this fork and the original
-https://github.com/mcilvena/jQuery-Retina-Display-Plugin/pull/2
+Based off the jQuery Retina plugin originally by Troy Mcilvena (http://www.troymcilvena.com)
 
-Usage:
+##Usage:
 
-$(element).retina([<filename_suffix:default=-2x>]);
+$.retinaOptions({'retinaSuffix':'2x'});
 
-Example:
+$(element).retina();
+
+###Example:
 
 <script src="js/jquery.retina.js" type="text/javascript" charset="utf-8"></script>
 
